@@ -1,0 +1,382 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:  #000000;
+    color: white;
+}
+
+.main-div
+{
+    display: flex;
+}
+
+.side-bar
+{
+    width: 250px; 
+    height: 100vh; 
+    position: sticky;
+    top: 0;
+    left: 20%;
+}
+
+
+.logo
+{
+    padding: 5px;
+    font-size: 30px;
+}
+.box
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-left:10px ;
+}
+.box i
+{
+    font-size: 20px;
+}
+.box p
+{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+button
+{
+    width: 250px;
+    height: 60px;
+    border-radius:40px ;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#238cc4;
+    color: white;
+    border: none;
+}
+
+button:hover
+{
+    background-color:#1a73a3;
+}
+
+.box:hover
+{
+    background-color:#2f3237;
+    border-radius:40px;
+    height: 50px;
+    transition: 0.2s ease;
+}
+
+.account-box
+{
+    display:flex;
+    align-items: flex-start;
+    margin-top: 200px;
+}
+
+.acc-pic i
+{
+    padding: 10px;
+}
+.account-box:hover
+{
+    background-color:#2f3237;
+    border-radius:40px;
+    height: 50px;
+    transition: 0.2s ease;
+}
+
+.middle-sec
+{
+    position: relative;
+    right: -25%;
+    border-left: 2px solid #2f3237;
+    border-right: 2px solid #2f3237;
+    width: 30%;
+}
+
+.home
+{
+    font-weight: bold; 
+    margin-top:13px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.options
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 2px solid #2f3237;
+}
+
+.post
+{
+    display: block;
+}
+
+.tweet
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    margin-top: 10px;
+
+}
+
+.tweet input
+{
+    width: 80%;
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.media
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    margin: 30px;
+    margin-bottom: 0px;
+    border-top: 2px solid #2f3237;
+    color: #1a73a3;
+}
+
+.media button
+{
+    width: 15%;
+    height: 30px;
+    border-radius:40px ;
+    font-size: 15px;
+    font-weight: 600;
+    background-color:#238cc4;
+    color: white;
+    border: none;
+    margin: 10px;
+    margin-left: 200px;
+    
+}
+button:hover
+{
+    background-color:#1a73a3;
+}
+
+.show-post
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1a73a3;
+    border-top: 2px solid #2f3237;
+    border-bottom: 2px solid #2f3237;
+    height: 50px;
+    font-weight: 700;
+}
+
+.post-tweets
+{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.post-tweets i
+{
+    padding: 10px;
+}
+
+.post-tweets h4 
+{
+    padding:10px;
+}
+.tweets
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-left: 20px;
+    line-height: 1.5rem;
+    
+}
+
+.tweets img
+{
+    width: 90%;
+    height: fit-content;
+    margin: 15px;
+}
+.reaction
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #2f3237;
+    gap: 30px;
+    font-size: 15px;
+    color:#616365;
+}
+
+.comment
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.third-section
+{
+    position: relative;
+    left: 25%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-left:50px ;
+}
+.search-bar
+{
+    width: 400px; 
+    height: 45px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2f3237;
+    border-radius: 30px;
+}
+
+.search-bar input
+{
+    border-radius: 30px;
+    background-color: #2f3237;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.search-bar i
+{
+    padding: 0 20px;
+    color: #848588;
+}
+
+.premium
+{
+    width: 400px; 
+    height: 18vh;
+    display:block;
+    background-color: #2f3237;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.premium h4
+{
+    padding: 10px;
+}
+
+.premium p
+{
+    padding: 10px;
+}
+.premium button
+{
+    height: 40px;
+    width: 40%;
+    margin-left: 10px;
+}
+.Trends
+{
+    width: 400px; 
+    height: fit-content;
+    background-color: #2f3237;
+    margin-top:30px;
+    border-radius: 20px;
+}
+.trendings
+{
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.current-trend
+{
+    display: block;
+}
+.niche
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #848588;
+}
+.who
+{
+    padding-left: 20px;  
+    font-size: 15px;
+    font-weight: 700;
+}
+.total-tweets
+{
+    padding-left: 20px;
+    padding-top: 5px;
+    color: #848588;
+}
+
+.suggestions
+{
+    width: 400px; 
+    height: fit-content;
+    background-color: #2f3237;
+    margin-top:30px;
+    border-radius: 20px;
+}
+
+.suggestions h3 
+{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.acc
+{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.det
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.btn-div button
+{
+    width: 120px;
+    height: 30px;
+    color: #000000;
+    background-color: white;
+}
+
